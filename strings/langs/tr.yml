@@ -4,3 +4,13 @@
     "genel_3": "Bu sohbette anonim bir yöneticisiniz, beni kullanmak için kullanıcı hesabına geri dönün.",
     "genel_4": "» Video sohbetlerini yönetme izniniz yok.\n\nYönetici önbelleğini yeniden yüklemek için /yenile",
     "genel_5": "» Bot video sohbetinde yayın yapmıyor."
+
+tg_1 = "<u><b>{0} İNDİRİCİ</b></u>\n\n<b>DOSYA BOYUTU :</b> {1}\n<b>TAMAMLANDI :</b> {2}\n<b>YÜZDE :</b> {3}%\n\n<b>HIZ :</b> {4}/s\n<b>TAMAMLANMA SÜRESİ :</b> {5}"
+tg_2 = "İNDİRME BAŞARILI, DOSYA İŞLENİYOR...\n\n<b>GEÇEN SÜRE :</b> {0}"
+tg_3 = "TELEGRAM'DAN MEDYA İNDİRME BAŞARISIZ, LÜTFEN TEKRAR DENEYİN..."
+tg_4 = "» İNDİRME ZATEN TAMAMLANDI."
+tg_5 = "» İNDİRME ZATEN TAMAMLANDI YA DA İPTAL EDİLDİ."
+tg_6 = "» İNDİRME İPTAL EDİLDİ."
+tg_7 = "» İNDİRME İPTAL EDİLDİ, TARAFINDAN : {0}"
+tg_8 = "İNDİRME DURDURULAMADI."
+tg_9 = "DEVAM EDEN İNDİRME GÖREVİ ALINAMADI..."
