@@ -2,11 +2,11 @@ name : "🇹🇷 Türkçe",
 
 
 
- genel_1: "» Bir kullanıcının mesajına yanıt verin veya kullanıcı adı / kullanıcı kimliği verin.",
- genel_2: "» Sorgunuzu işlerken bir hata oluştu.\n\nÖzel durum: <code>{0}</code>",
-  genel_3: "Bu sohbette anonim bir yöneticisiniz, beni kullanmak için kullanıcı hesabına geri dönün.",
-  genel_4: "» Video sohbetlerini yönetme izniniz yok.\n\nYönetici önbelleğini yeniden yüklemek için /yenile",
-  genel_5: "» Bot video sohbetinde yayın yapmıyor."
+genel_1: "» Bir kullanıcının mesajına yanıt verin veya kullanıcı adı / kullanıcı kimliği verin.",
+genel_2: "» Sorgunuzu işlerken bir hata oluştu.\n\nÖzel durum: <code>{0}</code>",
+genel_3: "Bu sohbette anonim bir yöneticisiniz, beni kullanmak için kullanıcı hesabına geri dönün.",
+genel_4: "» Video sohbetlerini yönetme izniniz yok.\n\nYönetici önbelleğini yeniden yüklemek için /yenile",
+genel_5: "» Bot video sohbetinde yayın yapmıyor."
 
 tg_1 : "<u><b>{0} İNDİRİCİ</b></u>\n\n<b>DOSYA BOYUTU :</b> {1}\n<b>TAMAMLANDI :</b> {2}\n<b>YÜZDE :</b> {3}%\n\n<b>HIZ :</b> {4}/s\n<b>TAMAMLANMA SÜRESİ :</b> {5}"
 tg_2 : "İNDİRME BAŞARILI, DOSYA İŞLENİYOR...\n\n<b>GEÇEN SÜRE :</b> {0}"
