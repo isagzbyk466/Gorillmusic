@@ -25,6 +25,7 @@ call_7 = "» Sıradaki parçayı kuyruktan indiriliyor.\n\nLütfen bekleyin..."
 call_8 = "<b>Aktif video sohbet bulunamadı.</b>\n\nLütfen grubunuzda/kanalınızda video sohbetini başlatın ve tekrar deneyin."
 call_9 = "<b>Asistan zaten video sohbetinde.</b>\n\nEğer asistan video sohbetinde değilse, lütfen <code>/reboot</code> komutunu gönderip tekrar oynatın."
 call_10 = "<b>Telegram sunucu hatası</b>\n\nTelegram bazı içsel sorunlar yaşıyor, lütfen tekrar oynatmayı deneyin veya grubunuzun video sohbetini yeniden başlatın."
+
 auth_1 : "» Grubunuzda yalnızca 25 yetkilendirilmiş kullanıcı bulunabilir."
 auth_2 : "» {0} yetkilendirilmiş kullanıcı listesine eklendi."
 auth_3 : "{0} zaten yetkilendirilmiş kullanıcılar listesinde."
@@ -79,6 +80,7 @@ admin_37 : "sᴜᴄᴄᴇssғᴜʟʟʏ ɢᴏᴛ <code>{0}</code> ᴜᴘᴠᴏᴛ
 admin_38 : "» 1 ᴜᴘᴠᴏᴛᴇ ᴇᴋʟᴇɴᴅɪ."
 admin_39 : "» 1 ᴜᴘᴠᴏᴛᴇ ᴋᴀʟᴅɪʀɪʟᴅɪ."
 admin_40 : "ᴜᴘᴠᴏᴛᴇᴅ."
+
 start_1 : "{0} canlı bebeğim.\n\n<b>✫ Çalışma Süresi :</b> {1}"
 start_2 : "<b>Merhaba</b> {0}, 🥀\n\n๏ Bu {1} !\n\n➻ Hızlı ve güçlü bir Telegram müzik çalma botu ile bazı harika özellikler.\n\n<b><u>Desteklenen Platformlar :</b></u> YouTube, Spotify, Resso, Apple Music ve SoundCloud.\n──────────────────\n<b>๏ Bilgi almak için yardım düğmesine tıklayın.</b>"
 start_3 : "Merhaba {0},\nBu {1}\n\nBeni {2} eklediğiniz için teşekkürler, {3} artık bu sohbette şarkı çalabilir."
@@ -88,10 +90,12 @@ start_6 = "😲 <b>Takip Bilgisi</b> 😲\n\n📌 <b>Başlık :</b> {0}\n\n⏳ <
 
 help_1 = "Yardım almak istediğiniz kategori seçin.\nŞüphelerinizi sormak için <a href={0}>destek sohbetinde</a> sorun.\n\nTüm komutlar şununla kullanılabilir: <code>/</code>"
 help_2 = "Yardım menümü almak için aşağıdaki düğmeye tıklayın."
+
 lang_1 = "» Lütfen bu grubun varsayılan dilini ayarlamak istediğiniz dili seçin:"
 lang_2 = "Dil başarıyla değiştirildi."
 lang_3 = "Dil değiştirme başarısız oldu."
 lang_4 = "Zaten aynı dili kullanıyorsunuz."
+
 setting_1 = "<u><b>{0} ayarlar paneli</b></u>\n\n<b>Sohbet ID:</b> <code>{1}</code>\n<b>Sohbet Başlığı:</b> {2}\n\nAyarları değiştirmek için aşağıdaki düğmelere tıklayın."
 setting_2 = "» Doğrudan: Arama sorgularını doğrudan çalar.\n\n» İnline: Video ve ses arasında seçim yapmak için iç içe düğmeler döndürür."
 setting_3 = "» Herkes: Bu grupta herkes admin komutlarını (atla, duraklat, devam et vb.) kullanabilir.\n\n» Sadece adminler: Sadece adminler ve yetkilendirilmiş kullanıcılar admin komutlarını kullanabilir."
@@ -127,6 +131,7 @@ cplay_4 = "» Kanal alınamadı.\n\nBotu kanalınıza eklediğinizden ve yöneti
 cplay_5 = "Yalnızca kanallar desteklenmektedir."
 cplay_6 = "» Bu grubu bağlamak için kanalın <b>sahibi</b> olmanız gerekmektedir.\n<b>Kanalın sahibi:</b> @{1}\n\nAlternatif olarak, grubunuzu o kanala bağlayabilir ve ardından <code>/channelplay linked</code> komutunu deneyebilirsiniz."
 cplay_7 = "» Kanal oynatma devre dışı bırakıldı."
+
 play_1 = "🔎"
 play_2 = "<b>➻ Kanal Oynatma Modu</b>\n\nİşleniyor, lütfen bekleyin...\n\n<b>Bağlı Kanal:</b> {0}"
 play_3 = "» Sorgu işleme başarısız oldu."
@@ -149,6 +154,7 @@ play_19 : "Sıraya Alınan Çalma Listesi:"
 play_20 : "Sıradaki Pozisyon-"
 play_21 : "{0} parça kuyruğa eklendi.\n\n<b>Kontrol et:</b> <a href={1}>Buraya tıklayın</a>"
 play_22 : "Grubunuzdaki sorguları çalmak istediğiniz modu seçin: {0}"
+
 str_1 = "Lütfen bana M3U8 veya index bağlantıları sağlayın."
 str_2 = "➻ Geçerli akış doğrulandı.\n\nİşleniyor..."
 str_3 = "YouTube canlı akışı alınamadı, canlı format bulunamadı."
