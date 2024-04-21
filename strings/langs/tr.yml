@@ -224,7 +224,7 @@ ST_B_12 : "Satır içi"
 ST_B_13 : "Yönetici Komutları ➜"
 ST_B_14 : "Çalma Türü ➜"
 
-SA_B_1 . "Genel Durum"
+SA_B_1 : "Genel Durum"
 SA_B_2 : "Genel"
 SA_B_3 : "Genel"
 QU_B_1 : "Kuyruk"
