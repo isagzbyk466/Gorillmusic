@@ -29,7 +29,7 @@ update() {
 		if yesnoprompt; then
 			pprint "\n\nUpgrading packages.. "
 			sudo apt upgrade -y &>/dev/null &&
-			pprint "DONE!\n\n" "cgreen" || (pprint "FAIL.\n\n" "cred"; exit 1)
+			pprint "DONE!\n\n" "cgreen" || (pprint "BAŞARISIZ.\n\n" "cred"; exit 1)
 		else
 			echo
 		fi
@@ -42,7 +42,7 @@ packages(){
 	if ! command -v pip &>/dev/null; then
 		pprint "Couldn't found pip, installing now..."
 		sudo apt install python3-pip -y 2>pypilog.txt 1>/dev/null &&
-		pprint "SUCCESS.\n\n" "cgreen" || (pprint "FAIL.\n\n" "cred"; exit 1)
+		pprint "SUCCESS.\n\n" "cgreen" || (pprint "BAŞARISIZ.\n\n" "cred"; exit 1)
 	fi
 
 	if ! command -v ffmpeg &>/dev/null; then
@@ -76,13 +76,13 @@ installation(){
 	pprint "\n\nUpgrading pip and installing dependency packages..."
 	pip3 install -U pip &>>pypilog.txt &&
 	pip3 install -U -r requirements.txt &>>pypilog.txt &&
-	pprint "DONE.\n" "cgreen" && return
-	pprint "FAIL.\n" "cred"
+	pprint "ÇIK.\n" "cgreen" && return
+	pprint "BAŞARISIZ.\n" "cred"
 	exit 1
 }
 
 clear
-pprint "Welcome to AnonXMusic Setup Installer\n\n"
+pprint "KURULUMA HOŞGELDİNİZ\n\n"
 pprint "If you see any error during Installation Process, Please refer to these files for logs: "
 pprint "\nFor node js errors , Checkout nodelog.txt"
 pprint "\nFor pypi packages errors , Checkout pypilog.txt"
