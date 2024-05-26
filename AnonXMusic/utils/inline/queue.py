@@ -18,7 +18,7 @@ def queue_markup(
                 callback_data=f"GetQueued {CPLAY}|{videoid}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
+                text=_["kapat_butonu"],
                 callback_data="close",
             ),
         ]
@@ -41,7 +41,7 @@ def queue_markup(
             ),
         ],
     ]
-    upl = InlineKeyboardMarkup(not_dur if DURATION == "Unknown" else dur)
+    upl = InlineKeyboardMarkup(not_dur if DURATION == "Bilinmeyen" else dur)
     return upl
 
 
@@ -54,8 +54,8 @@ def queue_back_markup(_, CPLAY):
                     callback_data=f"queue_back_timer {CPLAY}",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
-                    callback_data="close",
+                    text=_["kapat_butonu"],
+                    callback_data="kapalı",
                 ),
             ]
         ]
