@@ -68,7 +68,7 @@ node(){
 	curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - &>nodelog.txt &&
 	sudo apt install -y nodejs &>>nodelog.txt &&
 	sudo npm i -g npm &>>nodelog.txt &&
-	pprint "SUCCESS!\n" "cgreen" || (pprint "FAIL.\n" "cred"; exit 1)
+	pprint "BAŞARILI!\n" "cgreen" || (pprint "BAŞARISIZ.\n" "cred"; exit 1)
 }
 
 
@@ -94,7 +94,7 @@ update
 packages
 node
 installation
-pprint "\n\n\n\n\nAnonXMusic Installation Completed !" "cgreen"
+pprint "\n\n\n\n\nAnonXMusic KURULUM BAŞARILI !" "cgreen"
 sleep 1
 clear
 
