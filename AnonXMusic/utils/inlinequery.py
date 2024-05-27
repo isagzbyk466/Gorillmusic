@@ -13,7 +13,7 @@ answer.extend(
         InlineQueryResultArticle(
             title="Rᴇsᴜᴍᴇ",
             description=f"ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
-            thumb_url=https://telegra.ph/Goril-M%C3%BCzik-05-27.jpg",
+            thumb_url="https://telegra.ph/Goril-M%C3%BCzik-05-27.jpg",
             input_message_content=InputTextMessageContent("/resume"),
         ),
         InlineQueryResultArticle(
