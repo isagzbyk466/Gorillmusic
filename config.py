@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/goril-04-21.jpg"
+    "START_IMG_URL", "https://iili.io/JQdc5rb.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/goril-04-21.jpg"
+    "PING_IMG_URL", "https://iili.io/JQdc5rb.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
-STATS_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/Goril-Music-05-27"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/Goril-Music-05-27"
-STREAM_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
-YOUTUBE_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
+PLAYLIST_IMG_URL = "https://iili.io/JQdc5rb.jpg"
+STATS_IMG_URL = "https://iili.io/JQdc5rb.jpg"
+TELEGRAM_AUDIO_URL = "https://iili.io/JQdc5rb.jpg"
+TELEGRAM_VIDEO_URL = "https://iili.io/JQdc5rb.jpg"
+STREAM_IMG_URL = "https://iili.io/JQdc5rb.jpg"
+SOUNCLOUD_IMG_URL = "https://iili.io/JQdc5rb.jpg"
+YOUTUBE_IMG_URL = "https://iili.io/JQdc5rb.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://iili.io/JQdc5rb.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://iili.io/JQdc5rb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://iili.io/JQdc5rb.jpg"
 
 
 def time_to_seconds(time):
