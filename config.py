@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5821033842))
+OWNER_ID = int(getenv("OWNER_ID", 914909554))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -83,16 +83,16 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/goril-04-21.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/goril-04-21.jpg"
-STATS_IMG_URL = "https://telegra.ph/goril-04-21.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/goril-04-21.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/goril-04-21.jpg"
-STREAM_IMG_URL = "https://telegra.ph/goril-04-21.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/goril-04-21.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/goril-04-21.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/goril-04-21.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/goril-04-21.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/goril-04-21.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
+STATS_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/Goril-Music-05-27"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/Goril-Music-05-27"
+STREAM_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
+YOUTUBE_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/Goril-Music-05-27"
 
 
 def time_to_seconds(time):
