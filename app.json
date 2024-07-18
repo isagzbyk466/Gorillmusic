@@ -1,6 +1,6 @@
 {
-    "name": "Goril music",
-    "description": "telegramda müzik botu.",
+    "name": "✨𝗚𝗼𝗿𝗶𝗹 𝗠𝘂𝘇𝗶𝗸✨",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://iili.io/JQdc5rb.jpg",
     "keywords": [
     "python3",
